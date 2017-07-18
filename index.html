@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>esej - Mały, wielki człowiek.</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript>
+			<link rel="stylesheet" href="assets/css/noscript.css" />
+		</noscript>
+	</head>
+	<body>
+		<div id="wrapper">
+		<header id="header">
+			<img src="images/photo.jpg" alt="__" height="20%" width="20%" style="border-radius: 50%;"></img>
+			<div class="content">
+				<div class="inner">
+					<h1>esej</h1>
+					<p>Mały, wielki człowiek.</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="projects.html">Projekty</a></li>
+					<li><a href="https://skript.pl/profil/10458-esej/">Mój profil</a></li>
+					<li><a href="#contact">Kontakt</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="main">
+			<article id="contact">
+				<h2 class="major">Kontakt</h2>
+				<form method="get" action="/php/mail_form.php">
+					<div class="field half first">
+						<label for="name">Imię</label>
+						<input type="text" name="name" id="name" />
+					</div>
+					<div class="field half">
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email" />
+					</div>
+					<div class="field">
+						<label for="message">Wiadomość</label>
+						<textarea name="message" id="message" rows="4"></textarea>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Wyślij" class="special" /></li>
+						<li><input type="reset" value="Wyczyść" /></li>
+					</ul>
+				</form>
+			</article>
+		</div>
+			<footer id="footer">
+				<p class="copyright">&copy; Strona internetowa.</p>
+			</footer>
+		</div>
+		<div id="bg"></div>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
